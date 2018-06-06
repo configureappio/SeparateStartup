@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.Common", "Common\ConfigureAppIo.Demos.SayHello.Common\ConfigureAppIo.Demos.SayHello.Common.csproj", "{F9F95E0C-2651-46F7-BD57-29C0BD0CB340}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.Domain", "Common\ConfigureAppIo.Demos.SayHello.Domain\ConfigureAppIo.Demos.SayHello.Domain.csproj", "{AB5752BD-8B01-4565-A97D-B3D40BB92F7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.English", "Common\ConfigureAppIo.Demos.SayHello.English\ConfigureAppIo.Demos.SayHello.English.csproj", "{79D0EEA9-D6F7-4684-A34B-73E12CF0C6F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.EnglishInformal", "Common\ConfigureAppIo.Demos.SayHello.EnglishInformal\ConfigureAppIo.Demos.SayHello.EnglishInformal.csproj", "{8D0D5B00-DD76-4DC3-896E-5C1C36D71316}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.French", "Common\ConfigureAppIo.Demos.SayHello.French\ConfigureAppIo.Demos.SayHello.French.csproj", "{702E2D8B-8A7E-491D-9626-471BD0B0CB60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello", "BeforeSeparation\ConfigureAppIo.Demos.SayHello\ConfigureAppIo.Demos.SayHello.csproj", "{E63690D8-050A-4C70-AD77-E3F6D8A140B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.UnitTests.BeforeSeparation", "BeforeSeparation\ConfigureAppIo.Demos.SayHello.UnitTests.BeforeSeparation\ConfigureAppIo.Demos.SayHello.UnitTests.BeforeSeparation.csproj", "{5835865B-A716-4451-AE08-03A83FE44CD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.UnitTests.Common", "Common\ConfigureAppIo.Demos.SayHello.UnitTests.Common\ConfigureAppIo.Demos.SayHello.UnitTests.Common.csproj", "{AA4068F6-CAB8-4C16-9449-42426499B06C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9F95E0C-2651-46F7-BD57-29C0BD0CB340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F95E0C-2651-46F7-BD57-29C0BD0CB340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F95E0C-2651-46F7-BD57-29C0BD0CB340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F95E0C-2651-46F7-BD57-29C0BD0CB340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5752BD-8B01-4565-A97D-B3D40BB92F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5752BD-8B01-4565-A97D-B3D40BB92F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5752BD-8B01-4565-A97D-B3D40BB92F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5752BD-8B01-4565-A97D-B3D40BB92F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D0EEA9-D6F7-4684-A34B-73E12CF0C6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D0EEA9-D6F7-4684-A34B-73E12CF0C6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D0EEA9-D6F7-4684-A34B-73E12CF0C6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D0EEA9-D6F7-4684-A34B-73E12CF0C6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0D5B00-DD76-4DC3-896E-5C1C36D71316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0D5B00-DD76-4DC3-896E-5C1C36D71316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0D5B00-DD76-4DC3-896E-5C1C36D71316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0D5B00-DD76-4DC3-896E-5C1C36D71316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702E2D8B-8A7E-491D-9626-471BD0B0CB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702E2D8B-8A7E-491D-9626-471BD0B0CB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702E2D8B-8A7E-491D-9626-471BD0B0CB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702E2D8B-8A7E-491D-9626-471BD0B0CB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63690D8-050A-4C70-AD77-E3F6D8A140B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63690D8-050A-4C70-AD77-E3F6D8A140B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63690D8-050A-4C70-AD77-E3F6D8A140B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63690D8-050A-4C70-AD77-E3F6D8A140B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5835865B-A716-4451-AE08-03A83FE44CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5835865B-A716-4451-AE08-03A83FE44CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5835865B-A716-4451-AE08-03A83FE44CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5835865B-A716-4451-AE08-03A83FE44CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4068F6-CAB8-4C16-9449-42426499B06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4068F6-CAB8-4C16-9449-42426499B06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4068F6-CAB8-4C16-9449-42426499B06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4068F6-CAB8-4C16-9449-42426499B06C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D996FEC-6680-413D-8FFF-D7FEEFD5A187}
+	EndGlobalSection
+EndGlobal

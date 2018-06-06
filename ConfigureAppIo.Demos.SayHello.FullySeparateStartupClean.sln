@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.EnglishInformal", "Common\ConfigureAppIo.Demos.SayHello.EnglishInformal\ConfigureAppIo.Demos.SayHello.EnglishInformal.csproj", "{C4E301AD-FD20-4361-A5A1-B50FC019ABC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.Common", "Common\ConfigureAppIo.Demos.SayHello.Common\ConfigureAppIo.Demos.SayHello.Common.csproj", "{A0729FC5-81B4-447A-8249-1A66E4D43C68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.Domain", "Common\ConfigureAppIo.Demos.SayHello.Domain\ConfigureAppIo.Demos.SayHello.Domain.csproj", "{B265FEA8-1DF6-4AB2-8F4A-FAB991162257}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.English", "Common\ConfigureAppIo.Demos.SayHello.English\ConfigureAppIo.Demos.SayHello.English.csproj", "{8D64D48B-0347-486B-B1C3-51945209AA80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.French", "Common\ConfigureAppIo.Demos.SayHello.French\ConfigureAppIo.Demos.SayHello.French.csproj", "{8601055F-1CCE-4EC1-AD30-1BC7A0F0112C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.UnitTests.Common", "Common\ConfigureAppIo.Demos.SayHello.UnitTests.Common\ConfigureAppIo.Demos.SayHello.UnitTests.Common.csproj", "{CC969677-B827-4AFC-903E-FD8B09D9E10A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.FullySeparatedStartupClean", "FullySeparateStartupClean\ConfigureAppIo.Demos.SayHello.FullySeparatedStartupClean\ConfigureAppIo.Demos.SayHello.FullySeparatedStartupClean.csproj", "{B9FA27C6-DE4F-4443-8F8F-3A05A53A6AE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.FullySeparatedStartupClean.Infra", "FullySeparateStartupClean\ConfigureAppIo.Demos.SayHello.FullySeparatedStartupClean.Infra\ConfigureAppIo.Demos.SayHello.FullySeparatedStartupClean.Infra.csproj", "{655C26AD-3087-426E-BE89-B3214A2E8097}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAppIo.Demos.SayHello.UnitTests.FullySeparatedStartupClean", "FullySeparateStartupClean\ConfigureAppIo.Demos.SayHello.UnitTests.FullySeparatedStartupClean\ConfigureAppIo.Demos.SayHello.UnitTests.FullySeparatedStartupClean.csproj", "{C35F9622-E036-4CD7-9318-380C76244993}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4E301AD-FD20-4361-A5A1-B50FC019ABC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E301AD-FD20-4361-A5A1-B50FC019ABC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E301AD-FD20-4361-A5A1-B50FC019ABC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E301AD-FD20-4361-A5A1-B50FC019ABC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0729FC5-81B4-447A-8249-1A66E4D43C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0729FC5-81B4-447A-8249-1A66E4D43C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0729FC5-81B4-447A-8249-1A66E4D43C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0729FC5-81B4-447A-8249-1A66E4D43C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B265FEA8-1DF6-4AB2-8F4A-FAB991162257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B265FEA8-1DF6-4AB2-8F4A-FAB991162257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B265FEA8-1DF6-4AB2-8F4A-FAB991162257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B265FEA8-1DF6-4AB2-8F4A-FAB991162257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D64D48B-0347-486B-B1C3-51945209AA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D64D48B-0347-486B-B1C3-51945209AA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D64D48B-0347-486B-B1C3-51945209AA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D64D48B-0347-486B-B1C3-51945209AA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8601055F-1CCE-4EC1-AD30-1BC7A0F0112C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8601055F-1CCE-4EC1-AD30-1BC7A0F0112C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8601055F-1CCE-4EC1-AD30-1BC7A0F0112C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8601055F-1CCE-4EC1-AD30-1BC7A0F0112C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC969677-B827-4AFC-903E-FD8B09D9E10A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC969677-B827-4AFC-903E-FD8B09D9E10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC969677-B827-4AFC-903E-FD8B09D9E10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC969677-B827-4AFC-903E-FD8B09D9E10A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FA27C6-DE4F-4443-8F8F-3A05A53A6AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FA27C6-DE4F-4443-8F8F-3A05A53A6AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FA27C6-DE4F-4443-8F8F-3A05A53A6AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FA27C6-DE4F-4443-8F8F-3A05A53A6AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655C26AD-3087-426E-BE89-B3214A2E8097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655C26AD-3087-426E-BE89-B3214A2E8097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655C26AD-3087-426E-BE89-B3214A2E8097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655C26AD-3087-426E-BE89-B3214A2E8097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35F9622-E036-4CD7-9318-380C76244993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35F9622-E036-4CD7-9318-380C76244993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35F9622-E036-4CD7-9318-380C76244993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35F9622-E036-4CD7-9318-380C76244993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D996FEC-6680-413D-8FFF-D7FEEFD5A187}
+	EndGlobalSection
+EndGlobal
